@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*	GENERAL	
+--------------*/
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:#000000;
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+body a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+#container{
+	width:900px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+p{
+	margin-bottom:15px;
+}
+
+h1{
+	font-size:14px;
+	margin-bottom:20px;
+}
+
+h2{
+	font-size:13px;
+	margin-bottom:15px;
+}
+
+h3{
+	font-size:12px;
+	margin-bottom:5px;
+	margin-top:0px;
+}
+
+/*	TOP	
+-----------*/
+#logo{
+	float:left;
+}
+
+#slideshow{
+	margin-left:200px;
+	height:130px;
+}
+
+#menu{
+	margin-top:30px;
+	float:left;
+}
+
+#menu ul li{
+	list-style-type:none;
+	float:left;
+	margin-right:80px;
+	margin-bottom:2px;
+}
+
+#lang{
+	margin-top:30px;
+	margin-left:880px;
+}
+
+/*	CONTENT	
+--------------*/
+#content{
+	clear:left;
+	
+	border-width:2px;
+	border-style:solid;
+	border-color:#202020;
+	
+	width:900px;
+	height:400px;
+	position:relative;
+}
+
+#text{
+	padding-top:20px;
+	padding-left:30px;
+	padding-right:30px;
+	width:500px;
+	float:left;
+}
+
+#pics{
+	width:300px;
+	position:absolute;
+	left:600px;
+}
+
+.homecontent{
+	margin-left:200px;
+	margin-top:100px;
+}
+
+.homecontent dd{
+	margin-left: 220px;
+}
+
+#content ul{
+	margin-left:40px;
+}
+
+#carte{
+	text-align:center;
+}
+
+.domicile{
+	color:#FF0000;
+	font-size:14px;
+}
+
+#domicile{
+	margin-top:5px;
+	color:#FF0000;
+	font-size:16px;
+}
+
+/* FORMULIER
+---------------*/
+#form_left{
+	float:left;
+	line-height:20px;
+	margin-right:10px;
+	width:150px;
+}
+
+#form_right{
+	margin-bottom:5px;
+}
+
+#form_right input{
+	margin-bottom:3px;
+}
+
+#buttons{
+	margin-left:380px;
+}
+
+
+/*	PAGE PHOTOS	
+-------------------*/
+
+img{
+	width:60%;
+	max-height: auto;
+	display: none;
+	float: right;
+	padding: 1em;
+}
+
+.zichtbaart{
+	display: inline-block;
+}
+
+/*	INTRO	
+-------------*/
+
+#intro{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	background-image:url(images/intrologo.jpg);
+	width:472px;
+	height:346px;
+	padding-left:180px;
+	padding-top:160px;
+	line-height:50px;
+	text-align:center;
+}
+
+#intro h3{
+	font-weight:normal;
+	font-size:14px;
+}
